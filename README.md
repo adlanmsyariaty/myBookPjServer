@@ -1,8 +1,3 @@
-# MY BOOK PROJECT
-
-Deploy link (Firebase) : https://my-book-project-dae39.web.app/
-Deploy link (Heroku) : https://my-book-project.herokuapp.com/
-
 # API DOCUMENTATION
 
 ## Models
