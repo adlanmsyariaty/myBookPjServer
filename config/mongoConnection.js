@@ -3,7 +3,7 @@ const uri = `mongodb+srv://mongo:${process.env.PASSWORD}@cluster0.ujxji.mongodb.
 const client = new MongoClient(uri);
 
 let db
-async function connection() {
+async function connection(req, res) {
   try {
     await client.connect()
     db = client.db("my-book-project");
