@@ -8,6 +8,7 @@ async function connection(req, res) {
     await client.connect()
     db = client.db("my-book-project");
   } catch (error) {
+    console.log(error)
     res.status(500).json({
       message: "Internal server error"
     })
